@@ -10,7 +10,7 @@ const WeatherProvider = ({ children }) => {
 
   useEffect(() => {
     WeatherApi();
-  },[city]);
+  });
 
   const WeatherApi = async () => {
     const url = "https://api.openweathermap.org/data/2.5/";
