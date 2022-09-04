@@ -6,7 +6,7 @@ const WeatherContext = createContext();
 
 const WeatherProvider = ({ children }) => {
   const [weatherData, setWeatherData] = useState([]);
-  const [city, setCity] = useState(citiesJSON[33]);
+  const [city, setCity] = useState(citiesJSON[40]);
 
   useEffect(() => {
     WeatherApi();
